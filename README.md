@@ -24,6 +24,7 @@ This respository describes setup and getting started for all ADORe repositories.
 ## System Setup and Requirements
 The ADORe team tries to keep system requirements as general as is possible, but some dependencies cannot be avoided.
 To use the ADORe build system you must have docker, docker compose, and make installed and configured for your user.
+Here is a script to set up system requirements: [install_docker.sh](install_docker.sh)
 
 ## Checking out a Repository
 Our git repositories use submodules. Configure your ssh keys for [github.com].
