@@ -27,7 +27,7 @@ To use the ADORe build system you must have docker, docker compose, and make ins
 Here is a script to set up system requirements: [install_docker.sh](install_docker.sh)
 
 ## Checking out a Repository
-Our git repositories use submodules. Configure your ssh keys for [github.com].
+Our git repositories use submodules. Make sure to configure your ssh keys for github.com, as documented [here](https://docs.github.com/en/enterprise-server@3.1/authentication/connecting-to-github-with-ssh).
 You may check-out the main repository in the following way:
 ```bash
 git clone --recurse-submodules git@github.com:eclipse/adore.git
